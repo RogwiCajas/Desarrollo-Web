@@ -1,0 +1,83 @@
+ <!DOCTYPE html> <!--Indica al navegador que está leyendo html-->
+
+ <html lang="es"><!--atributo lang, lenguaje-->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Titulo Primera Pagina </title>
+        <meta name="description" content="Esta es mi primera Pagina web"/><!-- Se usan sus atributos para dar informacion-->
+        <meta name="author" content="Rogwi"/>
+        <meta name="keywords" content="Mi primer sitio, mi primer pagina"/>
+        <!--Agregar style 2, directamente desde la cabecera, usamos selectores; id #id_nombre, usamos clase .class 
+        id="nombreid" class="clasename"  universal *, etiqueta[atributo]-->
+        <link rel="stylesheet" href="estilos.css"> 
+    </head>
+    <body>
+        <div class="agrupar">
+            <header class="cabecera" ><!--Cabecera-->
+                <h1>Mi Blog</h1>
+                <h2>Aprende a lidiar con muertos en tú equipo de IHC en sencillos pasos</h2>
+                
+            </header>
+    
+            <nav class="menu" ><!--Barra de Navegacion-->
+                <ul><!--Lista desordenada-->
+                    <li>Principal</li>
+                    <li>Ayuda</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+    
+            <section class="seccion"><!--Seccion de Contenido-->
+                <article>
+                    <hgroup><!--Agrupar encabezados para detallar estructura-->
+                        <h1> ¿Que hacer si no  hacen nada?</h1> <!--Titulo-->
+                        <h2>No se desespere:</h2>
+                    </hgroup>
+                    <time datetime="29-08-2020">Sabado,29-08-2020</time><!--FEcha-->
+                    <p>Sacales  la <cite>chucha sin paro, pobres hpts no merecen nada, muertos!</cite>!</p><!--Parrafo-->
+                    <img src="images/golpe.png"/>
+                    <footer>
+                        comentarios :0
+                    </footer>
+                    <address><!--indica que es una direccion-->
+                        <a href="https://www.sidweb.espol.edu.ec/">
+                            Visita mi sitio
+                        </a>
+                    </address>
+                    
+                </article>
+                <article>
+                    <hgroup> 
+                        <h1> Son muertos ¿Cómo evitar que apesten?</h1>
+                        <h2>Cuidado:</h2>
+                    </hgroup>
+                    <time datetime="29-08-2020">Sabado,29-08-2020</time>
+                    <p>Evite todo <small>contacto o interaccion</small> con ellos/ellas/<span>ellxs </span> o desarrollará una ansiedad que acbará carcomiendo su alma!</p>
+                    <img src="https://as01.epimg.net/meristation/imagenes/2019/04/11/betech/1555013629_095706_1555013852_noticia_normal.jpg" id="ws"/>
+                    <footer>
+                        comentarios :10
+                    </footer>
+                </article>
+                
+            </section>
+            
+            <aside class="lateral"><!--Info no importante-->
+                <blockquote cite="https://www.sidweb.espol.edu.ec/"><!--Sirve para agregar citas-->
+                    Mensaje Lateral 1
+                </blockquote>
+                <blockquote cite="https://www.sidweb.espol.edu.ec/">
+                    Mensaje Lateral 2
+                </blockquote>
+            </aside>
+    
+            <footer class="pie"><!--Pie de pagina-->
+                Derechos Reservados 2010-2020
+            </footer>
+        </div>
+        
+        
+    </body>
+ </html>
+
+
+
