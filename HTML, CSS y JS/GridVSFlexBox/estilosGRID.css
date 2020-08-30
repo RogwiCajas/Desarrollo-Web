@@ -1,0 +1,16 @@
+header div{
+    padding: 15px;
+    border:1px solid black;/**/
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);/*(column,)*/
+    background: #99AAB5;
+}
+header>div:nth-child(3){
+    grid-column: 10;
+
+}

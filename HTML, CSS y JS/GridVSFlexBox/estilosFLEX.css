@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    background: #99AAB5;
+}
+
+header >div:nth-child(3){
+    margin-left: auto;
+}
+header div{
+    padding: 15px;
+    border:1px solid black;/**/
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
